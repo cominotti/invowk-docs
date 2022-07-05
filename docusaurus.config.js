@@ -75,6 +75,9 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            type: 'docsVersionDropdown',
+          },
         ],
       },
       footer: {
@@ -129,14 +132,4 @@ const config = {
     }),
 };
 
-module.exports = {
-  themeConfig: {
-    navbar: {
-      items: [
-        {
-          type: 'docsVersionDropdown',
-        },
-      ],
-    },
-  },
-};
+module.exports = config;
