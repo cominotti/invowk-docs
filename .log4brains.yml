@@ -1,0 +1,5 @@
+project:
+  name: invowk
+  tz: America/Sao_Paulo
+  adrFolder: ./docs/adr
+  packages: []
